@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CC.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <p id="Text">Currency Convertor</p>
+        <div class="box">
+            <div class="boxAmount">
+                <form action="" method="get">Enter Amount
+                    <label for="Amount"></label>
+                    <input type="number" placeholder="Enter Amount here" name="" id="Amount">
+                </form>
+            </div>
+            <div class="from">
+                <div class="Fimage">
+                   <img src="https://flagsapi.com/US/flat/64.png">
+                </div>
+                <div class="dropdown">
+                    <label for="country_code">Select Your Country</label>
+                    <select name="from" id="">
+                         <!-- <option value="USD">USD</option>
+                        <option value="IND">IN</option>
+                        <option value="AFN">AF</option>
+                        <option value="XCD">AG</option>
+                        <option value="ANG">AN</option> -->
+                    </select>
+                </div>
+            </div>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="to">
+                <div class="Timage">
+                    <img src="https://flagsapi.com/IN/flat/64.png">
+                </div>
+                <div class="dropdown">
+                    <label for="country_code">Select Your Country</label>
+                    <select name="to" id="">
+                        <!-- <option value="IND">INR</option>
+                        <option value="USD">US</option>
+                        <option value="AFN">AF</option>
+                        <option value="XCD">AG</option>
+                        <option value="ANG">AN</option> -->
+                    </select>                        
+                </div>
+            </div>
+        </div>
+        <div id="text1"  class="msg">1 USD = 90.27 INR</div>
+                <button class="btn" id="GERbtn">Get Exchange Rate</button>
+                <br>
+                <button class ="resetbtn" id="Rbtn" type="reset">Reset</button>
+    </div>
+<script src="CC1.js"></script>
+<script src="CC.js"></script>
+
+</body>
+
+</html>
